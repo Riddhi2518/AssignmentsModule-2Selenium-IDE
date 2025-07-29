@@ -1,0 +1,212 @@
+{
+  "id": "aa0afc3f-9585-4cf4-bee4-795515d4cd7f",
+  "version": "2.0",
+  "name": "Assignment2 Tops-ContactUS page",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "c1fa3c5c-415c-4f43-8792-d3a5aa3e7a91",
+    "name": "Assignment2 Tops ContactUS page",
+    "commands": [{
+      "id": "6b5a47df-807f-4aa0-a4e2-a85fed3e3e21",
+      "comment": "",
+      "command": "open",
+      "target": "/contact-us/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e449473a-4a17-4664-a4e7-fe51578c152d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1519x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed53194a-e1b1-43fd-912d-b80d18d8d8cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "538d3542-8252-4463-b779-fa61a753ac31",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Riddhi"
+    }, {
+      "id": "502dd9b1-2f2f-45c2-86e0-0287484cfc91",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb196bae-6809-4f3c-8fd5-75ce88a6ba43",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "riddhi123@gmail.com"
+    }, {
+      "id": "e666ef10-b43e-417f-81cb-c8f16ea33b81",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "507e5bd0-c615-45e3-86e2-fc0965828aa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9081864568"
+    }, {
+      "id": "dd47f425-0738-4cab-a303-69d50932a362",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "95.16668701171875,24.233306884765625"
+    }, {
+      "id": "d33286a6-28ec-4422-a20e-cf14c4c5ae7b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "95.16668701171875,24.233306884765625"
+    }, {
+      "id": "0be77804-f915-4d2f-87af-f003196b34b8",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "95.16668701171875,24.233306884765625"
+    }, {
+      "id": "9b0561a0-9226-482d-a7d7-63947fc5366e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "455674d5-2530-4d59-96f9-56e2d7f22c54",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "riddhi123"
+    }, {
+      "id": "5f9413ef-8781-4db3-a1d4-d98c0ba85b08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.registration-form:nth-child(1) .iti__arrow",
+      "targets": [
+        ["css=.registration-form:nth-child(1) .iti__arrow", "css:finder"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/div/button/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06272695-30a0-4b4c-bb09-a668f56f191a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#iti-0__item-af > .iti__country-name",
+      "targets": [
+        ["css=#iti-0__item-af > .iti__country-name", "css:finder"],
+        ["xpath=//li[@id='iti-0__item-af']/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Afghanistan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "35394e45-3d1a-4d5f-b128-3c8ecf738d60",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1fa3c5c-415c-4f43-8792-d3a5aa3e7a91"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}

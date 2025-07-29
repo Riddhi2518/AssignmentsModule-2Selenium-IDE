@@ -1,0 +1,84 @@
+{
+  "id": "3583eaee-c033-409d-bb9d-e84429a85c1e",
+  "version": "2.0",
+  "name": "Using command Assignment2 ContactUS page",
+  "url": "https://www.tops-int.com/contact-us",
+  "tests": [{
+    "id": "c543c762-6c7a-494c-9d46-6f9b51fed89c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "3732de9f-9b06-41f3-9846-b5d98e0c41ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fc5dbe1-739e-41fd-8ff6-49075b6530ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8c2e124-51d7-45d0-b770-54400487df3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [],
+      "value": "Riddhi"
+    }, {
+      "id": "3ad7f0ef-0847-4e89-bdbe-d9124ccecad5",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a57536cb-88ed-48ea-8387-6cc0eeb80a17",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//*[@id=\"inq_email\"]",
+      "targets": [],
+      "value": "riddhi123@gmail.com"
+    }, {
+      "id": "0f793f55-0317-450c-85cb-800ba5bed781",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_contact",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d47bb5b3-5269-4073-9839-7c26fb8c1ff7",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact",
+      "targets": [],
+      "value": "9123412378"
+    }, {
+      "id": "6e88e839-54eb-48f3-bab6-7182e3ea142c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "linkText=Send Inquiry",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "ac4bc758-c1ad-44b9-8801-cf145c08f157",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Top Computer Courses in India – Learn with TOPS Technologies",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "566a23ac-fa1a-4427-b4b5-9bc8c4471bf9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c543c762-6c7a-494c-9d46-6f9b51fed89c"]
+  }],
+  "urls": ["https://www.tops-int.com/contact-us"],
+  "plugins": []
+}
